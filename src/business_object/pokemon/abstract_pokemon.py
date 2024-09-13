@@ -1,5 +1,5 @@
 import copy
-from abc import ABC, abstractmethod
+from abc import abstractmethod
 
 from business_object.statistic import Statistic
 

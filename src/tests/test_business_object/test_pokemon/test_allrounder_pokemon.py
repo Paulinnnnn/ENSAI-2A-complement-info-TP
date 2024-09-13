@@ -2,7 +2,7 @@ from business_object.pokemon.AllRounder import AllRounder
 from business_object.statistic import Statistic
 
 
-class AllRounderPokemon:
+class TestAllRounderPokemon:
     def test_get_coef_damage_type(self):
         # GIVEN
         snorlax = AllRounder(stat_current=Statistic(sp_atk=200, sp_def=200))
